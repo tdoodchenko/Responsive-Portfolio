@@ -1,0 +1,145 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777; 
+    background-image: url("../images/qbkls.png");
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    }
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding-top: 50px;
+    border-bottom: 2px #cccccc solid;
+    top: 0;
+    }
+
+.header-con {
+    width: 960px;
+    margin: 0 auto;
+    }
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid #dddddd;
+    margin-bottom: 100px;
+    }
+
+.box1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+    padding: 5px 0 5px 0;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+
+ul.menu-nav {
+    margin-top: 10px;
+}
+
+.menu-nav li {
+    display: inline;
+    padding-right: 5px;
+}    
+
+
+h1 {
+    color: #4aaaa5;
+    font-size: 25px;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 40px;
+}
+
+p {
+    padding-top: 0px;
+    }
+
+#headshot {
+    float: left;
+    margin-right: 30px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #666666;
+    color: #dddddd;
+    margin-top: 60px;
+    border-top: #4aaaa5 8px solid;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    }
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 2px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+
+.port  {
+    position: relative;
+    float: none;
+    width: 225px;
+    overflow: auto;
+ 
+    }
+
+.port img {
+    float: left;
+    width: 100%;
+    border: 0 none;
+    padding-bottom: 20px;
+}    
