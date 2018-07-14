@@ -143,3 +143,17 @@ input[type=submit]:hover {
     border: 0 none;
     padding-bottom: 20px;
 }    
+
+/*media Queries*/
+
+@media screen and (max-width: 640px) {
+    .box1 {
+        float: none;
+        width: 100%;
+    }
+
+    .menu {
+        float: none;
+        width: 100%
+    }
+}
