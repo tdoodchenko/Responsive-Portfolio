@@ -158,14 +158,9 @@ input[type=submit]:hover {
         width: 100%;
         padding-left: 40px;
         margin-bottom: 0px;
+        height: 38px;
 
     }
-
-    #logo {
-        
-    }
-
-
     
     .box1 {
         width: 50%
@@ -173,19 +168,13 @@ input[type=submit]:hover {
 
     .menu {
        float: right;
-       padding-top: 5px;
+       padding-top: 15px;
        padding-right: 50px;
         
     }
-
-    .menu-nav {            
-        
-    
-    }
-
+  
     ul.menu-nav {
-        float: left;
-                
+        float: left;          
     }
 
     .header-con {
@@ -196,7 +185,8 @@ input[type=submit]:hover {
 
     .container {
     width: 80%;
-    margin-right: 20px;
+    
+    
     }
 
     p {
@@ -215,10 +205,11 @@ input[type=submit]:hover {
         
     .header-con {
         width: 100%;
-        padding-left: 0
+        padding-left: 0;
+        margin-bottom: 40px;
     }
 
-    #logo {
+     #logo {
         width: 100%;  
         float: none    
     }
@@ -231,7 +222,9 @@ input[type=submit]:hover {
     .menu {
         float: none;
         width: 100%;
-        align-content: center
+        align-content: center;
+        padding-top: 0px;
+        height: 50;
         
     }
 
@@ -273,8 +266,9 @@ input[type=submit]:hover {
 @media screen and (max-width: 640px) {
     
     .header-con {
-    width: 100%;
-    padding-left: 0
+        width: 100%;
+        
+   
     }
 
     #logo {
@@ -290,7 +284,9 @@ input[type=submit]:hover {
     .menu {
         float: none;
         width: 100%;
-        align-content: center
+        align-content: center;
+       
+
         
     }
 
@@ -312,10 +308,7 @@ input[type=submit]:hover {
 
 /* ABOUT ME CONTENT*/
 
-    .container {
-    width: 80%;
-    margin-right: 20px;
-    }
+    
 
     p {
     padding-right: 50px;
